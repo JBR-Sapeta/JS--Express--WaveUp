@@ -91,7 +91,7 @@ npm start
 ![](./readme/swagger-docs.PNG)
 
 
-### Testing and other scripts
+### Testing 
 1.	Run tests in memory:
 ```
 npm test
@@ -100,11 +100,12 @@ npm test
 ```
 npm run test:staging
 ```
-3.	Run sequelize migration scripts:
+### Other scripts
+1.	Run sequelize migration scripts:
 ```
 npm run migrate
 ```
-4.	Clean up your uploads directories by running following script (set NODE_ENV variable):
+2.	Clean up your uploads directories by running following script (set NODE_ENV variable):
 ```
 npm run cleanup
 ```
