@@ -5,12 +5,21 @@ This README file provides an overview of the application, its features, and inst
 
 ## Important
 - You can find client application at following link - [Waveup Frontend](https://www.google.com)
-- This is a development version and use deprecated nodemailer version for testing purposes. 
+- This is a development version and use deprecated nodemailer version only for testing purposes. 
 - Development version run only on SQLite Database. Both environment variables and migration scripts are not prepared for deployment on PostgreSQL. 
 
 
 ## Technologies Used
-WaveUp is built using the following key technologies and dependencies:
+
+### Technologies
+WaveUp is built using the following key technologies:
+- Node.jS
+- JavaScript
+- PostgreSQL - Production
+- SQLite - Development
+
+### Dependencies
+WaveUp is built using the following dependencies:
 - Node.js - v18.15.0
 - NPM - 9.5.0
 - Express.js - 4.18.2
