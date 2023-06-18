@@ -11,6 +11,7 @@ This README file provides an overview of the application, its features, and inst
 ## Project Overview
 
 ### Features
+- **Internationalization**: application supports 2 languages - Polish and English.
 - **User Registration**: Users can create an account on WaveUp by providing their accountname, email address, and password. Once registered, they can log in to their accounts.
 - **Account Activation**: After registering, users are required to complete an email verification process.The user needs to click on the activation link sent to their email in order to verify and activate their account. 
 - **Account Recovery**: When a user realizes they cannot access their account due to a forgotten password, they can initiate the account recovery process and set new password.
