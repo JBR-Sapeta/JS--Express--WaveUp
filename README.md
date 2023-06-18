@@ -33,7 +33,8 @@ This README file provides an overview of the application, its features, and inst
 ![ERD Diagram](./readme/ERD.PNG)
 
 ### Testing 
--  REST API were tested through integration tests. 
+-  REST API were tested using Jest with Supertest. 
+-  695 integration test were written.
 
 ![Test Coverage](./readme/coverage.PNG)
 
