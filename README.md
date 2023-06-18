@@ -9,7 +9,7 @@ This README file provides an overview of the application, its features, and inst
 - Development version run only on SQLite Database. Both environment variables and migration scripts are not prepared for deployment on PostgreSQL. 
 
 
-##Technologies Used
+## Technologies Used
 WaveUp is built using the following key technologies and dependencies:
 - Node.js - v18.15.0
 - NPM - 9.5.0
