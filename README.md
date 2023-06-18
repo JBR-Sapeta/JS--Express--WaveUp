@@ -66,23 +66,23 @@ WaveUp is built using the following key technologies and dependencies:
 - Supertest - 6.3.3
 
 
-# Getting Started
+## Getting Started
 To run the WaveUp application locally, follow these steps:
 
-## Prerequisites
+### Prerequisites
 Before running the WaveUp, make sure you have the following installed:
 -	[Node.js](https://nodejs.org/en)
 
-## Getting Started
+### Getting Started
 To get started with WaveUp, follow these steps:
 
-1.  Download code or clone the repository.
-2.	Navigate to the project directory.
-3.	Install the dependencies:
+**1.  Download code or clone the repository.**
+**2.	Navigate to the project directory.**
+**3.	Install the dependencies:**
 ```
 npm install
 ```
-4.	Set up the environment variables:
+**4.	Set up the environment variables:**
 
 - Create a [Etheral](https://ethereal.email/) account, or use other provider.
 
@@ -92,7 +92,7 @@ npm install
 
 ![](./readme/env.PNG)
 
-5.	Start the application:
+**5.	Start the application:**
 - Run in development mode:
 ```
 npm run dev
@@ -101,26 +101,26 @@ npm run dev
 ```
 npm start
 ```
-6. Open your web browser and visit http://localhost:8080/docs to access WaveUp Swagger documentation.
+**6. Open your web browser and visit http://localhost:8080/docs to access WaveUp Swagger documentation.**
 
 ![](./readme/swagger-docs.PNG)
 
 
 ### Testing 
-1.	Run tests in memory:
+**1.	Run tests in memory:**
 ```
 npm test
 ```
-2.	Run tests on real database:
+**2.	Run tests on real database:**
 ```
 npm run test:staging
 ```
 ### Other scripts
-1.	Run sequelize migration scripts:
+**1.	Run sequelize migration scripts:**
 ```
 npm run migrate
 ```
-2.	Clean up your uploads directories by running following script (set NODE_ENV variable):
+**2.	Clean up your uploads directories by running following script (set NODE_ENV variable):**
 ```
 npm run cleanup
 ```
