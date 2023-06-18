@@ -4,7 +4,7 @@ Welcome to WaveUp, a social media application where you can connect with friends
 This README file provides an overview of the application, its features, and instructions for getting started. This repository contains REST API of WaveUp application, built using Express.js 
 
 ## Important
-- You can find client application at following link - [Waveup Frontend](https://github.com/JBR-Sapeta/JS--Express--WaveUp)
+- You can find client application at following link - [WaveUp Frontend](https://github.com/JBR-Sapeta/JS--Express--WaveUp)
 - This is a development version and use deprecated nodemailer version only for testing purposes. 
 - Development version run only on SQLite Database. Both environment variables and migration scripts are not prepared for deployment on PostgreSQL. 
 
