@@ -56,7 +56,7 @@ To run the WaveUp application locally, follow these steps:
 
 ### Prerequisites
 Before running the WaveUp, make sure you have the following installed:
-•	[Node.js](https://nodejs.org/en)
+-	[Node.js](https://nodejs.org/en)
 
 ### Getting Started
 To get started with WaveUp, follow these steps:
@@ -86,5 +86,16 @@ npm run dev
 ```
 npm start
 ```
+6 Open your web browser and visit http://localhost:8080/docs to access WaveUp Swagger documentation.
+
+![](./readme/swagger-docs.PNG)
+
+
+
+
+
+
+
+
 
 
