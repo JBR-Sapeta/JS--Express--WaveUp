@@ -86,16 +86,28 @@ npm run dev
 ```
 npm start
 ```
-6 Open your web browser and visit http://localhost:8080/docs to access WaveUp Swagger documentation.
+6. Open your web browser and visit http://localhost:8080/docs to access WaveUp Swagger documentation.
 
 ![](./readme/swagger-docs.PNG)
 
 
-
-
-
-
-
+### Testing and other scripts
+1.	Run tests in memory:
+```
+npm test
+```
+2.	Run tests on real database:
+```
+npm run test:staging
+```
+3.	Run sequelize migration scripts:
+```
+npm run migrate
+```
+4.	Clean up your uploads directories by running following script (set NODE_ENV variable):
+```
+npm run cleanup
+```
 
 
 
