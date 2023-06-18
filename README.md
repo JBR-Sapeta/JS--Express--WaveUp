@@ -13,7 +13,7 @@ This README file provides an overview of the application, its features, and inst
 
 ### Technologies
 WaveUp is built using the following key technologies:
-- Node.jS
+- Node.js
 - JavaScript
 - PostgreSQL - Production
 - SQLite - Development
@@ -51,31 +51,36 @@ WaveUp is built using the following dependencies:
 - Supertest - 6.3.3
 
 
+## Getting Started
+To run the WaveUp application locally, follow these steps:
 
+### Prerequisites
+Before running the WaveUp, make sure you have the following installed:
+•	[Node.js](https://nodejs.org/en)
 
+### Getting Started
+To get started with WaveUp, follow these steps:
 
-
-
-
-
-
-
-
-
-
-## Project setup
+1.  Download code or clone the repository.
+2.	Navigate to the project directory.
+3.	Install the dependencies:
 ```
 npm install
 ```
+4.	Set up the environment variables:
+•	Create a [Etheral](https://ethereal.email/) account, or use other provider.
+(./readme/ERD.PNG)
+•	Fill in the following variables in .env files:
+(./readme/ERD.PNG)
 
-### Compiles and hot-reloads for development
-
+5.	Start the application:
+- Run in development mode:
+```
+npm run dev
+```
+- Run in production mode:
 ```
 npm start
 ```
 
-### Run tests
 
-```
-npm test:clean
-```
