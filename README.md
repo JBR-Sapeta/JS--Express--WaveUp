@@ -34,6 +34,7 @@ This README file provides an overview of the application, its features, and inst
 
 ### Testing 
 -  REST API were tested through integration tests. 
+
 ![Test Coverage](./readme/coverage.PNG)
 
 ### Technologies Used
