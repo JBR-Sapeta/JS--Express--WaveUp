@@ -24,7 +24,7 @@ This README file provides an overview of the application, its features, and inst
 - **Moderate Comments**: Administrators can moderate comments. Inappropriate or offensive comments can be changed, ensuring that discussions remain respectful and within the community guidelines.
 - **Ban/Unban Users**: Administrators have the authority to ban or unban users from the platform. This feature allows them to address user behavior that violates the platform's policies. 
 
-![](./readme/swagger-doc.PNG)
+![](./readme/swagger-docs.PNG)
 
 ### Database 
 - **Development** - SQLite.
@@ -105,7 +105,7 @@ npm start
 ```
 **6. Open your web browser and visit http://localhost:8080/docs to access WaveUp Swagger documentation.**
 
-![](./readme/swagger-docs.PNG)
+![](./readme/swagger-doc.PNG)
 
 
 ### Testing 
