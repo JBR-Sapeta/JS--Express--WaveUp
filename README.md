@@ -32,6 +32,10 @@ This README file provides an overview of the application, its features, and inst
 
 ![ERD Diagram](./readme/ERD.PNG)
 
+### Testing 
+-  REST API were tested through integration tests. 
+![Test Coverage](./readme/coverage.PNG)
+
 ### Technologies Used
 
 WaveUp is built using the following key technologies and dependencies:
@@ -70,8 +74,7 @@ WaveUp is built using the following key technologies and dependencies:
 To run the WaveUp application locally, follow these steps:
 
 ### Prerequisites
-Before running the WaveUp, make sure you have the following installed:
--	[Node.js](https://nodejs.org/en)
+Before running the WaveUp, make sure you have the [Node.js](https://nodejs.org/en) installed.
 
 ### Getting Started
 To get started with WaveUp, follow these steps:
