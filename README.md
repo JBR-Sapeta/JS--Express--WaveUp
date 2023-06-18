@@ -77,7 +77,9 @@ Before running the WaveUp, make sure you have the following installed:
 To get started with WaveUp, follow these steps:
 
 **1.  Download code or clone the repository.**
+
 **2.	Navigate to the project directory.**
+
 **3.	Install the dependencies:**
 ```
 npm install
