@@ -8,9 +8,9 @@ This README file provides an overview of the application, its features, and inst
 - This is a development version and use deprecated nodemailer version only for testing purposes. 
 - Development version run only on SQLite Database. Both environment variables and migration scripts are not prepared for deployment on PostgreSQL. 
 
-# Project Overview
+## Project Overview
 
-## Features
+### Features
 - **User Registration**: Users can create an account on WaveUp by providing their accountname, email address, and password. Once registered, they can log in to their accounts.
 - **Account Activation**: After registering, users are required to complete an email verification process.The user needs to click on the activation link sent to their email in order to verify and activate their account. 
 - **Account Recovery**: When a user realizes they cannot access their account due to a forgotten password, they can initiate the account recovery process and set new password.
@@ -26,13 +26,13 @@ This README file provides an overview of the application, its features, and inst
 
 ![](./readme/swagger-doc.PNG)
 
-## Database 
+### Database 
 - **Development** - SQLite.
-- **Production** - PostgreSQL.\
+- **Production** - PostgreSQL.
 
 ![ERD Diagram](./readme/ERD.PNG)
 
-## Technologies Used
+### Technologies Used
 
 WaveUp is built using the following key technologies and dependencies:
 - Node.js - v18.15.0
