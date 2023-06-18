@@ -1,6 +1,6 @@
 # WaveUp - Social Media - REST API
 
-Welcome to WaveUp, a social media application where you can connect with friends, share your thoughts,experiences and memories through posts.
+Welcome to WaveUp, a social media application where you can connect with friends, share your thoughts, experiences and memories through posts.
 This README file provides an overview of the application, its features, and instructions for getting started. This repository contains REST API of WaveUp application, built using Express.js 
 
 ## Important
