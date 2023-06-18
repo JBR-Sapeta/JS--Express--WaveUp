@@ -1,0 +1,47 @@
+{
+  "name": "social-media",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production npm run migrate && cross-env NODE_ENV=production node index.js",
+    "dev": "cross-env NODE_ENV=development npm run migrate && cross-env NODE_ENV=development nodemon index.js",
+    "test": "cross-env NODE_ENV=test jest --coverage --config ./jest.config.json && cross-env NODE_ENV=test npm run cleanup",
+    "test:staging": "cross-env NODE_ENV=staging npm run migrate && cross-env NODE_ENV=staging jest --maxWorkers=1 --config ./jest.config.json --forceExit  && cross-env NODE_ENV=staging npm run cleanup",
+    "migrate": "sequelize-cli db:migrate",
+    "cleanup": "node file-cleanup"
+  },
+  "author": "JBRS",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-rate-limit": "^6.7.0",
+    "express-validator": "^6.15.0",
+    "file-type": "^16.5.3",
+    "helmet": "^6.1.5",
+    "hpp": "^0.2.3",
+    "i18next": "^22.4.11",
+    "i18next-fs-backend": "^2.1.1",
+    "i18next-http-middleware": "^3.3.0",
+    "jsonwebtoken": "^9.0.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^4.7.0",
+    "sequelize": "^6.29.3",
+    "sequelize-cli": "^6.6.0",
+    "sqlite3": "^5.1.6",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^4.6.2",
+    "uuid": "^9.0.0",
+    "winston": "^3.8.2"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "nodemon": "^2.0.21",
+    "smtp-server": "^3.11.0",
+    "supertest": "^6.3.3"
+  }
+}

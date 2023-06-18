@@ -1,0 +1,12 @@
+# local env files
+node_modules
+coverage
+*.sqlite
+upload-dev
+upload-test
+upload-staging
+upload-prod
+
+# local env files
+.env.local
+.env.*.local

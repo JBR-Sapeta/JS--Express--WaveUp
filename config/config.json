@@ -1,0 +1,26 @@
+{
+  "production": {
+    "username": "user",
+    "password": "Pass222",
+    "database": "social-media",
+    "host": "localhost",
+    "dialect": "sqlite",
+    "storage": "./prodDB.sqlite"
+  },
+  "development": {
+    "username": "user",
+    "password": "Pass222",
+    "database": "social-media",
+    "host": "localhost",
+    "dialect": "sqlite",
+    "storage": "./devDB.sqlite"
+  },
+  "staging": {
+    "username": "user",
+    "password": "Pass222",
+    "database": "social-media",
+    "host": "localhost",
+    "dialect": "sqlite",
+    "storage": "./stagingDB.sqlite"
+  }
+}
