@@ -78,6 +78,9 @@ npm run cleanup
 - Post Interactions - Likes: Users can express their appreciation for posts by adding likes to them.
 - Search: Users can search for other users using username, or account names.
 - Posts Listing and Pagination: Users can scroll through the list of posts to explore content. Pagination divides posts into pages, displaying a specific number of posts per page. User can also filter posts based on date.
+- Hide/Show Posts: If posts violate community guidelines administrators have the ability to hide them  from the public. Administrator can also delete them
+- Moderate Comments: Administrators can moderate comments. Inappropriate or offensive comments can be changed, ensuring that discussions remain respectful and within the community guidelines.
+- Ban/Unban Users: Administrators have the authority to ban or unban users from the platform. This feature allows them to address user behavior that violates the platform's policies. 
 
 ## Technologies Used
 
