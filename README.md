@@ -68,10 +68,12 @@ To get started with WaveUp, follow these steps:
 npm install
 ```
 4.	Set up the environment variables:
-•	Create a [Etheral](https://ethereal.email/) account, or use other provider.
-(./readme/ERD.PNG)
-•	Fill in the following variables in .env files:
-(./readme/ERD.PNG)
+
+- Create a [Etheral](https://ethereal.email/) account, or use other provider.
+!(./readme/ERD.PNG)
+
+-	Fill in the following variables in .env files:
+!(./readme/ERD.PNG)
 
 5.	Start the application:
 - Run in development mode:
